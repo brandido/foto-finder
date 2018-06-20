@@ -1,0 +1,17 @@
+* {
+
+}
+
+label {
+  color: #938284;
+}
+
+.input-forms {
+  background-color: #3E2A35;
+}
+
+.gallery {
+  background-color: #C2B2B4;
+  height: 200px;
+  width: 200px;
+}

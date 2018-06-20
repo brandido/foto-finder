@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+  <title>Foto Finder</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Foto <span>image</span> Finder</h1>
+  <!-- 2 forms with input fields for naming:-->
+  <section class="input-forms">
+    <form>
+      <div>
+        <label> Title</label>
+      </div>
+        <input class="title-input" type="text" name="title">
+      <div>
+        <label> Caption</label>
+      </div>
+        <input class="caption-input" type="text" name="title">
+    </form>
+      <!-- file-input can be manipulated using JavaScript code and the File API -->
+        <label>Choose File</label>
+        <input class="file-input" type="file" name="file" accept="image/*" multiple>
+        <button class="submit-button" type="submit">Add to Album</button>
+  </section>
+  <section class="gallery">
+    
+  </section>
+  <script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>
