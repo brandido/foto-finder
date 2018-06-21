@@ -29,4 +29,21 @@ function uploadPhoto() {
     };
 
     // do createElement template literal for the card
+  function createAlbumCard(ul) {
+    console.log('works!');
+    var albumCard = document.createElement('li');
+    albumCard.innerHTML = `<section class='foto-album-card'>
+      <section class='foto-title'>${titleInput.value}</section>
+      <img class='chooseFile' src=${img.value} />
+      <p class='foto-caption'>${captionInput.value}</p>
+      <footer class='trash-heart-icons'>
+        <button class='trash-btn' <img class='trash-btn' src='icons/delete.svg'></button>
+        <button class='heart-btn' <img class='heart-btn' src='icons/favorite.svg'></button>
+      </footer>
+      </section>`;
+
+  newAlbumCard.appendChild(albumCard);
+
+};
+
 

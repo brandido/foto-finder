@@ -12,6 +12,11 @@ label {
 
 .gallery {
   background-color: #C2B2B4;
-  height: 200px;
-  width: 200px;
+  height: 800px;
+  width: 1200px;
+}
+
+.photo-image {
+  height: 400px;
+  width:  200px;
 }
